@@ -30,7 +30,7 @@ Mubeccel Framework'un kodlanma sebepleri:
     </li>
     <li>
         Model-View-Controller ( MVC ) mimarisi ve Nesne Tabanlı Programlama ( OOP ) a olan
-        hakimiyetimi arttırmal.
+        hakimiyetimi arttırmak.
     </li>
     <li>
         Web güvenliği tarafındaki eksiklerimi görebilmek.
