@@ -4,6 +4,8 @@ Mubeccel is a lightweight PHP-MVC Framework
 
 ---------------------------------------
 
+Download : <a href="https://selimcan.com/mubeccel/mubeccel.zip">(__click__)</a>
+---------------------------------------
 # Hakkında
 
 <hr>
