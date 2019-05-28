@@ -1,0 +1,12 @@
+{
+    "name": "selimcanozdemir/mubeccel",
+    "description": "mubeccel is a lightweight php framework",
+    "license": "Apache License 2.0",
+    "authors": [
+        {
+            "name": "selimcan",
+            "email": "ozdemirselimcan@gmail.com"
+        }
+    ],
+    "require": {}
+}
