@@ -1,7 +1,7 @@
 {
     "name": "selimcanozdemir/mubeccel",
     "description": "mubeccel is a lightweight php framework",
-    "license": "Apache License 2.0",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "selimcanozdemir",
