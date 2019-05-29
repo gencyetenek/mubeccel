@@ -20,15 +20,14 @@ define("DEFAULT_CONTROLLER",    "home");
 define("DEFAULT_ACTION",        "index");
 define("DEFAULT_PARAM",         "");
 
-define("APPS_PATH", "../Mubeccel/Apps/");
+define("APPS_PATH", $_SERVER['DOCUMENT_ROOT'] . "\/Apps/");
 define("BASE_PATH", "../Mubeccel/");
 define("CORE_PATH", "../Mubeccel/Core/");
-define("LAYOUTS_PATH", "../Mubeccel/Layouts/");
+define("LAYOUTS_PATH", $_SERVER['DOCUMENT_ROOT']."\/Layouts/");
 define("EXTS_PATH", "../Mubeccel/Plugins/");
 
-require_once CORE_PATH . "/Mubeccel.php";
-require_once BASE_PATH . "/Route.php";
-require_once BASE_PATH . "/vendor/autoload.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/Route.php";
+// require_once BASE_PATH . "/vendor/autoload.php";
 define("MODEL_PATH", APPS_PATH . Mubeccel::$activeController . "/");
 
 
