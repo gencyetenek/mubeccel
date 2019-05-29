@@ -1,0 +1,13 @@
+{
+    "name": "selimcanozdemir/mubeccel",
+    "description": "simple mvc framework",
+    "type": "project",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "selimcanozdemir",
+            "email": "ozdemirselimcan@gmail.com"
+        }
+    ],
+    "require": {}
+}
