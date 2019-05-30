@@ -1,6 +1,5 @@
 <?php
-session_start();
-require_once "Config.php";
+
 class Mubeccel {
     public $RequestUrl;
     public $RequestMethod = DEFAULT_METHOD;
@@ -11,9 +10,7 @@ class Mubeccel {
     public static $route_method;
     public static $activeController;
     
-    public function __construct(){
-        $req_uri = $_SERVER['REQUEST_URI'];
-        $req_method = $_SERVER['REQUEST_METHOD'];
+    public function __construct($req_uri,$req_method){
         $this->checkDebug();
         $this->RequestUrl = $this->clearRequest($req_uri);
         $this->RequestMethod = $this->setRequestMethod($req_method);
