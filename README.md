@@ -1,6 +1,5 @@
 # mubeccel
 Mubeccel is a lightweight PHP-MVC Framework
--Selim Can Özdemir
 
 <img src="mubeccel.PNG">
 ---------------------------------------
